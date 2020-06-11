@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:flutter_stetho/flutter_stetho.dart';
 import 'package:get_it/get_it.dart';
 import 'package:dio/dio.dart';
 
@@ -33,6 +34,7 @@ class AppModule {
   }
 
   void setup() {
+    Stetho.initialize();
     configureService();
     configureRepository();
     configureBloc(app);
