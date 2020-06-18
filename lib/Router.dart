@@ -6,6 +6,7 @@ import 'ui/home.dart';
 class Router {
   static const initialPage = "/";
   static const secondPage = "/second-page";
+  static const loginPage = "/login-page";
 
   static Route<dynamic> generateRouter(RouteSettings settings) {
     Widget widget = Home();
