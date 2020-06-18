@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:oke_oce_app/ui/page/login_page.dart';
 import 'package:oke_oce_app/ui/second_page.dart';
 
 import 'ui/home.dart';
@@ -17,7 +18,10 @@ class Router {
       case secondPage :
         widget = SecondPage();
         break;
+      case loginPage :
+        widget = LoginPage();
     }
+
     return MaterialPageRoute(builder : (_)=> widget);
   }
 }
