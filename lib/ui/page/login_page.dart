@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:oke_oce_app/ui/page/register_page.dart';
 import 'package:oke_oce_app/utils/constant.dart';
 import 'package:oke_oce_app/widget/custom_text_field.dart';
 
@@ -86,7 +87,12 @@ class _LoginPage extends State<LoginPage> {
                                     child: RaisedButton(
                                       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10),side: BorderSide(color: Theme.of(context).accentColor,width: 3)),
                                         color: Colors.white,
-                                        onPressed: () {},
+                                        onPressed: () {
+                                          Navigator.push(
+                                            context,
+                                            MaterialPageRoute(builder: (context) => RegisterPage()),
+                                          );
+                                        },
                                         child: Text("Daftar")),
                                   ),
                                   Divider(
@@ -99,7 +105,7 @@ class _LoginPage extends State<LoginPage> {
                                         color: Theme.of(context).accentColor,
                                         onPressed: () {},
                                         child: Text(
-                                          "Daftar",
+                                          "Masuk",
                                           style: TextStyle(color: Colors.white),
                                         )),
                                   ),
