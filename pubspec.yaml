@@ -21,6 +21,7 @@ dependencies:
   moor_generator: 2.1.1
   flutter_bloc: 4.0.0
   get_it: ^3.1.0
+  auto_size_text: ^2.1.0
   flutter_stetho: ^0.5.2
   flutter:
     sdk: flutter
@@ -34,6 +35,8 @@ dev_dependencies:
   build_runner: ^1.10.0
   json_serializable: ^3.2.0
   flutter_svg: ^0.17.4
+  bmnav: ^0.3.4
+
 
 
 
@@ -55,6 +58,13 @@ flutter:
   assets:
      - assets/images/login-background.svg
      - assets/images/logo-umkm.svg
+  fonts:
+    - family: normal
+      fonts:
+        - asset: fonts/CircularStd-Bold.ttf
+    - family: bold
+      fonts:
+        - asset: fonts/CircularStd-Medium.ttf
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
 
