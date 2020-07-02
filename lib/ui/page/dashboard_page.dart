@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:bmnav/bmnav.dart' as bmnav;
 
 import '../../Global.dart';
+import 'beranda_page.dart';
 
 class DashboardPage extends StatefulWidget {
   @override
@@ -17,9 +18,7 @@ class DashboardPageState extends State<DashboardPage> {
   String APPBAR_TITLE = "Waroenk";
   int _selectedIndex = 0;
   final List<Widget> _widgetOptions = <Widget>[
-    Text(
-      'Index 0: Beranda',
-    ),
+    Beranda(),
     Text("Agenda"),
     Text("Keranjang"),
     Text("Akun"),

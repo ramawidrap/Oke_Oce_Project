@@ -4,6 +4,8 @@ import 'package:oke_oce_app/utils/constant.dart';
 import 'package:oke_oce_app/widget/custom_text_field.dart';
 import 'package:oke_oce_app/ui/page/dashboard_page.dart';
 
+import '../../Global.dart';
+
 class LoginPage extends StatefulWidget {
   @override
   State<StatefulWidget> createState() {
@@ -46,7 +48,7 @@ class _LoginPage extends State<LoginPage> {
                           Expanded(
                             flex: 1,
                             child: SvgPicture.asset(
-                              K.PATH_LOGO_UMKM,
+                              Global.PATH_LOGO_UMKM,
                               width: 100,
                               height: 100,
                             ),
@@ -116,7 +118,7 @@ class _LoginPage extends State<LoginPage> {
             ),
             Expanded(
               child: SvgPicture.asset(
-                K.PATH_BACKGROUND,
+                Global.PATH_BACKGROUND,
                 width: 999,
                 height: 999,
               ),

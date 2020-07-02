@@ -36,6 +36,7 @@ dev_dependencies:
   json_serializable: ^3.2.0
   flutter_svg: ^0.17.4
   bmnav: ^0.3.4
+  carousel_slider: ^2.2.1
 
 
 
@@ -58,11 +59,28 @@ flutter:
   assets:
      - assets/images/login-background.svg
      - assets/images/logo-umkm.svg
+     - assets/images/category/food.svg
+     - assets/images/category/drink.svg
+     - assets/images/category/HasilAlam.svg
+     - assets/images/category/animal.svg
+     - assets/images/category/bag.svg
+     - assets/images/category/kerajinan.svg
+     - assets/images/category/pakaian.svg
+     - assets/images/category/interior.svg
+     - assets/images/category/medical.svg
+     - assets/images/category/jasa.svg
+     - assets/images/category/add.svg
+     - assets/images/sliderImage1.svg
+     - assets/images/image1.jpg
+     - assets/images/image2.jpg
+     - assets/images/image3.jpg
+     - assets/images/line.svg
+     - assets/images/bri.jpg
   fonts:
-    - family: normal
+    - family: bold
       fonts:
         - asset: fonts/CircularStd-Bold.ttf
-    - family: bold
+    - family: normal
       fonts:
         - asset: fonts/CircularStd-Medium.ttf
   # An image asset can refer to one or more resolution-specific "variants", see
